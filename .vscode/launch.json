@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/roland/Documents/GitHub/CIS-3207/3207-Lab-Introduction_F24-",
+      "program": "/Users/roland/Documents/GitHub/CIS-3207/3207-Lab-Introduction_F24-/build/Debug/outDebug"
+    }
+  ]
+}
