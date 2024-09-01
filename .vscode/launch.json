@@ -1,13 +1,26 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Users/roland/Documents/GitHub/CIS-3207/3207-Lab-Introduction_F24-",
-      "program": "/Users/roland/Documents/GitHub/CIS-3207/3207-Lab-Introduction_F24-/build/Debug/outDebug"
-    }
-  ]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "/Users/roland/Documents/GitHub/CIS-3207/3207-Lab-Introduction_F24-",
+            "program": "/Users/roland/Documents/GitHub/CIS-3207/3207-Lab-Introduction_F24-/build/Debug/outDebug"
+        },
+        {
+            "name": "C/C++: gcc build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: gcc build active file"
+        }
+    ]
 }
